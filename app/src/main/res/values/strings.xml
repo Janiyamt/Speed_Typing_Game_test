@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Speed typing game</string>
+    <string name="app_title">Speed Typing Game</string>
+    <string name="app_subtitle">Improve your typing speed with practice</string>
+    <string name="paragraph_mode">Paragraph Mode</string>
+    <string name="boost_mode">Boost Mode</string>
+    <string name="multiplayer_mode">Multiplayer Mode</string>
+    <string name="start">Start</string>
+    <string name="time_remaining">Time: %1$d s</string>
+    <string name="wpm_result">Your typing speed: %1$d WPM</string>
+    <string name="try_again">Try Again</string>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="hint_type_here">Type here...</string>
+    <string name="waiting_for_opponent">Waiting for opponent...</string>
+    <string name="you_won">You Won!</string>
+    <string name="you_lost">You Lost!</string>
+    <string name="join_game">Join Game</string>
+    <string name="create_game">Create Game</string>
+
+    <!-- Added missing strings for ResultActivity -->
+    <string name="accuracy_result">Accuracy: %.1f%%</string>
+    <string name="boost_mode_result">Boost Mode Results</string>
+    <string name="paragraph_mode_result">Paragraph Mode Results</string>
+</resources>

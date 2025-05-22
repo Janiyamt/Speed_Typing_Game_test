@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/main_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/accent"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_subtitle"
+        android:textSize="16sp"
+        android:textColor="@color/neutral_text"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+    <Button
+        android:id="@+id/paragraphModeButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/paragraph_mode"
+        android:layout_marginTop="64dp"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="16sp"
+        android:backgroundTint="@color/button_normal"
+        android:textColor="@color/button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitleTextView"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <Button
+        android:id="@+id/boostModeButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boost_mode"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="16sp"
+        android:backgroundTint="@color/button_normal"
+        android:textColor="@color/button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paragraphModeButton"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <Button
+        android:id="@+id/multiplayerModeButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/multiplayer_mode"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="16sp"
+        android:backgroundTint="@color/button_normal"
+        android:textColor="@color/button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boostModeButton"
+        app:layout_constraintWidth_percent="0.8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

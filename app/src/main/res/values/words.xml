@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>android</item>
+        <item>development</item>
+        <item>programming</item>
+        <item>keyboard</item>
+        <item>application</item>
+        <item>computer</item>
+        <item>network</item>
+        <item>interface</item>
+        <item>mobile</item>
+        <item>software</item>
+        <item>hardware</item>
+        <item>database</item>
+        <item>algorithm</item>
+        <item>function</item>
+        <item>variable</item>
+        <item>library</item>
+        <item>framework</item>
+        <item>object</item>
+        <item>class</item>
+        <item>method</item>
+        <item>inheritance</item>
+        <item>polymorphism</item>
+        <item>encapsulation</item>
+        <item>abstraction</item>
+        <item>server</item>
+        <item>client</item>
+        <item>protocol</item>
+        <item>security</item>
+        <item>responsive</item>
+        <item>design</item>
+    </string-array>
+</resources>

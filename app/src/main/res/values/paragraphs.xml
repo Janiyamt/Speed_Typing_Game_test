@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paragraphs">
+        <item>The quick brown fox jumps over the lazy dog. This classic pangram contains every letter of the alphabet and is often used to test typing speed and accuracy. It has been a standard typing test for many years and is a great way to practice your keyboard skills.</item>
+        <item>Mobile app development is the process of creating software applications that run on mobile devices. These applications can be pre-installed or downloaded from app stores. Mobile apps utilize network features to provide interactive services for users while on the go.</item>
+        <item>Programming is the process of creating instructions for computers to follow. These instructions, called code, are written in programming languages like Java, Python, or C++. Good programming involves not just writing code, but also planning, testing, and debugging it.</item>
+        <item>Android is an operating system developed by Google for mobile devices. It is based on a modified version of the Linux kernel and other open-source software. Android is designed primarily for touchscreen mobile devices such as smartphones and tablets.</item>
+        <item>User interfaces are important aspects of any application. A well-designed UI should be intuitive, responsive, and accessible. It acts as the point of interaction between users and digital devices, allowing users to effectively control and navigate through an application.</item>
+    </string-array>
+</resources>

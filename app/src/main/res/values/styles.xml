@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.SpeedTypingGame" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/main_bg</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+
+        <!-- Text appearance -->
+        <item name="android:textViewStyle">@style/GameTextViewStyle</item>
+        <item name="buttonStyle">@style/GameButtonStyle</item>
+    </style>
+
+    <!-- Text view style for all text views -->
+    <style name="GameTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Title text style for game title -->
+    <style name="GameTitleTextStyle" parent="GameTextViewStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Subtitle text style -->
+    <style name="GameSubtitleTextStyle" parent="GameTextViewStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral_text</item>
+    </style>
+
+    <!-- Timer text style -->
+    <style name="TimerTextStyle" parent="GameTextViewStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="android:textColor">@color/timer_normal</item>
+    </style>
+
+    <!-- Button style for game buttons -->
+    <style name="GameButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="backgroundTint">@color/button_normal</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Results text style -->
+    <style name="ResultsTextStyle" parent="GameTextViewStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/score_highlight</item>
+    </style>
+
+    <!-- Paragraph text style -->
+    <style name="ParagraphTextStyle" parent="GameTextViewStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">#2A2A2A</item>
+    </style>
+</resources>
