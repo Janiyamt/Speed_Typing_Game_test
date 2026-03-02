@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Speed typing game"
+rootProject.name = "Testing Github PR"
 include ':app'
